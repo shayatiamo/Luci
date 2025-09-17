@@ -1,0 +1,14 @@
+appId: com.luci.ai
+productName: Luci
+win:
+  target:
+    - nsis
+    - nsis-web
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+publish:
+  provider: github
+  owner: shayatiamo
+  repo: Luci
